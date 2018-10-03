@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'todolife.urls'
+ROOT_URLCONF = 'setting.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'todolife.wsgi.application'
+WSGI_APPLICATION = 'setting.wsgi.application'
 
 
 # Database
