@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'setting.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'todo_life',
-        'USER':'todo_life_user',
-        'PASSWORD':'Abeno00?',
-        'HOST':'192.168.56.101',
+        'NAME': 'abeno',
+        'USER':'abeno',
+        'PASSWORD':'eqaeqaeqa00',
+        'HOST':'todobd.cqf07wodquwz.ap-northeast-1.rds.amazonaws.com',
         'PORT':'3306',
     }
 }
